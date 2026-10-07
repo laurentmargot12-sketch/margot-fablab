@@ -1,0 +1,100 @@
+# Espace admin (Pages CMS : https://app.pagescms.org)
+# Chaque bloc ci-dessous devient un formulaire dans l'admin.
+media:
+  input: images
+  output: images
+
+content:
+  - name: creations
+    label: Créations
+    type: file
+    path: content/creations.json
+    format: json
+    fields:
+      - name: creations
+        label: Créations
+        type: object
+        list: true
+        fields:
+          - { name: titre, label: Titre, type: string, required: true }
+          - name: rubrique
+            label: Rubrique
+            type: string
+            description: "Écris le nom exact d'une rubrique (ex. Peinture). Pour en créer une, va dans Rubriques."
+            required: true
+          - { name: annee, label: Année, type: number }
+          - { name: format, label: "Format / dimensions", type: string }
+          - { name: description, label: Description, type: text }
+          - { name: image, label: Photo, type: image }
+          - name: teinte
+            label: "Visuel provisoire (si pas encore de photo)"
+            type: select
+            options: { values: [rouge, encre, papier, metal] }
+          - { name: a_vendre, label: "Mettre en vente dans la boutique", type: boolean, description: "Statut « disponible » = ajout au panier et paiement en ligne. « sur commande » = bouton Commander par message." }
+          - { name: prix, label: "Prix (€)", type: number }
+          - { name: mention_prix, label: "Mention à côté du prix (ex. À partir de)", type: string }
+          - name: statut
+            label: Statut
+            type: select
+            options: { values: [disponible, sur commande, vendu] }
+
+  - name: rubriques
+    label: Rubriques
+    type: file
+    path: content/rubriques.json
+    format: json
+    fields:
+      - name: rubriques
+        label: Rubriques
+        type: object
+        list: true
+        fields:
+          - { name: nom, label: Nom, type: string, required: true }
+          - { name: texte, label: "Phrase de présentation", type: string }
+
+  - name: projets
+    label: Projets
+    type: file
+    path: content/projets.json
+    format: json
+    fields:
+      - name: projets
+        label: Projets
+        type: object
+        list: true
+        fields:
+          - { name: titre, label: Titre, type: string, required: true }
+          - { name: annee, label: Année, type: number }
+          - { name: lieu, label: "Cadre (exposition, commande…)", type: string }
+          - { name: texte, label: Texte, type: text }
+          - name: creations
+            label: "Créations du projet (titres exacts)"
+            type: string
+            list: true
+
+  - name: site
+    label: "Moi & infos du site"
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - { name: nom, label: Nom affiché, type: string }
+      - { name: signature, label: "Signature (ex. artiste & fabricante d'images)", type: string }
+      - { name: ville, label: Lieu, type: string }
+      - { name: email, label: E-mail de contact, type: string }
+      - { name: instagram, label: Lien Instagram, type: string }
+      - { name: annonce, label: "Bandeau défilant", type: string }
+      - name: apropos
+        label: À propos
+        type: object
+        fields:
+          - { name: accroche, label: Accroche, type: text }
+          - { name: texte, label: "Texte (sépare les paragraphes par une ligne vide)", type: text }
+          - { name: photo, label: Ta photo, type: image }
+          - name: parcours
+            label: Parcours
+            type: object
+            list: true
+            fields:
+              - { name: annee, label: Année, type: string }
+              - { name: texte, label: Texte, type: string }
