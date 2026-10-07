@@ -1,0 +1,28 @@
+{
+  "rubriques": [
+    {
+      "nom": "Peinture",
+      "texte": "Acrylique, encre et papier marouflé."
+    },
+    {
+      "nom": "Dessin",
+      "texte": "Carnets, feutres, traits rapides."
+    },
+    {
+      "nom": "Textile",
+      "texte": "Pièces peintes et brodées à la main."
+    },
+    {
+      "nom": "Céramique",
+      "texte": "Petits objets modelés, émaillés à l'atelier."
+    },
+    {
+      "nom": "Photo",
+      "texte": "Argentique, matières, lumière d'atelier."
+    },
+    {
+      "nom": "Édition",
+      "texte": "Fanzines, affiches, sérigraphies."
+    }
+  ]
+}

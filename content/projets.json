@@ -1,0 +1,35 @@
+{
+  "projets": [
+    {
+      "titre": "Childhood",
+      "annee": 2026,
+      "lieu": "Projet personnel",
+      "texte": "Une série d'affiches et de dessins autour de l'enfance : écritures tremblées, photos de famille, jouets en plastique. Tout part d'un carton retrouvé chez ma mère.",
+      "creations": [
+        "Enfance, jeu, simplicité",
+        "Lettres cachées",
+        "Fanzine #3"
+      ]
+    },
+    {
+      "titre": "Scotch",
+      "annee": 2025,
+      "lieu": "Exposition collective",
+      "texte": "Recouvrir pour mieux montrer. Des lettres et des objets emballés de ruban adhésif rouge, puis peints. Une recherche sur ce qu'on cache.",
+      "creations": [
+        "Scotch rouge n°1",
+        "Chandelier"
+      ]
+    },
+    {
+      "titre": "Vêtements custom",
+      "annee": 2025,
+      "lieu": "Commandes",
+      "texte": "Vestes, sacs et t-shirts peints à la main sur demande. Chaque pièce part d'une conversation avec la personne qui la portera.",
+      "creations": [
+        "Veste œil",
+        "Sac peint"
+      ]
+    }
+  ]
+}

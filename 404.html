@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Page introuvable · Margot, fablab</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Reenie+Beanie&family=Instrument+Serif:ital@0;1&display=swap">
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+<svg width="0" height="0" aria-hidden="true" style="position:absolute">
+  <filter id="crayon" x="-5%" y="-15%" width="110%" height="130%">
+    <feTurbulence type="fractalNoise" baseFrequency="1.1" numOctaves="2" seed="4" result="grain"/>
+    <feColorMatrix in="grain" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -2.2 0 0 0 1.8" result="masque"/>
+    <feComposite in="SourceGraphic" in2="masque" operator="in" result="trace"/>
+    <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="2" result="tremble"/>
+    <feDisplacementMap in="trace" in2="tremble" scale="3" xChannelSelector="R" yChannelSelector="G"/>
+  </filter>
+</svg>
+<header class="entete">
+  <a class="marque" href="/"><b>Margot</b> fablab</a>
+  <nav aria-label="Navigation principale">
+    <a href="/#creations">Créations</a>
+    <a href="/#projets">Projets</a>
+    <a href="/#apropos">À propos</a>
+    <a href="/#boutique">Boutique</a>
+    <a href="/#panier" class="lien-panier"><span class="mini-enveloppe" aria-hidden="true"></span>Panier</a>
+  </nav>
+  <span class="lieu"></span>
+</header>
+<main>
+  <section class="page">
+    <div class="page-404">
+      <p class="code-404" aria-label="Erreur 404"><span>4</span><img class="deco-texte deco--noire tourne" src="/images/deco/etoile-noire-eclat.png" alt="" aria-hidden="true"><span>4</span></p>
+      <p class="crayon perdu">oups, cette page s'est perdue à l'atelier</p>
+      <p class="explication">Le lien est peut-être ancien, ou la pièce a quitté la boutique. Tout le reste est encore là.</p>
+      <div class="actions-404"><a class="bouton" href="/">Retour à l'accueil</a><a class="bouton bouton--creux" href="/#creations">Voir les créations</a></div>
+      <img class="deco d-404-rose balance" src="/images/deco/etoile-rose.png" alt="" aria-hidden="true">
+      <img class="deco d-404-rouge tourne" src="/images/deco/etoile-rouge.png" alt="" aria-hidden="true">
+    </div>
+  </section>
+</main>
+</body>
+</html>

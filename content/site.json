@@ -1,0 +1,27 @@
+{
+  "nom": "Margot",
+  "signature": "artiste & fabricante d'images",
+  "ville": "Atelier, France",
+  "email": "bonjour@ton-domaine.fr",
+  "instagram": "https://instagram.com/",
+  "annonce": "Ouverte aux commandes et aux collaborations",
+  "apropos": {
+    "accroche": "Je fabrique des images avec ce qui traîne : du scotch, des feutres, des vêtements, des photos de famille.",
+    "texte": "Ce texte est provisoire : remplace-le par le tien. Parle de ton parcours, de ta façon de travailler, de ce qui te fait commencer une pièce.\n\nMon travail passe d'une technique à l'autre, mais garde les mêmes obsessions : la main qui se voit, le rouge, et les choses qu'on recouvre.",
+    "photo": "",
+    "parcours": [
+      {
+        "annee": "2026",
+        "texte": "Childhood, série d'affiches"
+      },
+      {
+        "annee": "2025",
+        "texte": "Exposition collective, Scotch"
+      },
+      {
+        "annee": "2024",
+        "texte": "Début des vêtements custom"
+      }
+    ]
+  }
+}

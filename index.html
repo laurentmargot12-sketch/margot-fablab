@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Margot, fablab</title>
+<meta name="description" content="Créations, projets et boutique de Margot.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Reenie+Beanie&family=Instrument+Serif:ital@0;1&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<!--CORPS-->
+<svg class="filtres-svg" width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute">
+  <!-- Grain de crayon : on troue le tracé avec un bruit fin, puis on le fait légèrement trembler -->
+  <filter id="crayon" x="-5%" y="-15%" width="110%" height="130%">
+    <feTurbulence type="fractalNoise" baseFrequency="1.1" numOctaves="2" seed="4" result="grain"/>
+    <feColorMatrix in="grain" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -2.2 0 0 0 1.8" result="masque"/>
+    <feComposite in="SourceGraphic" in2="masque" operator="in" result="trace"/>
+    <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="2" result="tremble"/>
+    <feDisplacementMap in="trace" in2="tremble" scale="3" xChannelSelector="R" yChannelSelector="G"/>
+  </filter>
+  <!-- Bord de papier déchiré pour l'enveloppe -->
+  <filter id="papier-dechire" x="-2%" y="-2%" width="104%" height="104%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.08" numOctaves="3" seed="9" result="bruit"/>
+    <feDisplacementMap in="SourceGraphic" in2="bruit" scale="5" xChannelSelector="R" yChannelSelector="G"/>
+  </filter>
+</svg>
+<header class="entete">
+  <a class="marque" href="#accueil" data-nom><b>Margot</b></a>
+  <nav aria-label="Navigation principale">
+    <a href="#creations">Créations</a>
+    <a href="#projets">Projets</a>
+    <a href="#apropos">À propos</a>
+    <a href="#boutique">Boutique</a>
+    <a href="#panier" class="lien-panier"><span class="mini-enveloppe" aria-hidden="true"></span>Panier <span class="compteur" data-compteur>0</span></a>
+  </nav>
+  <span class="lieu" data-ville></span>
+</header>
+
+<main>
+  <section class="page" id="page-accueil" aria-label="Accueil"></section>
+  <section class="page" id="page-creations" aria-label="Créations" hidden></section>
+  <section class="page" id="page-projets" aria-label="Projets" hidden></section>
+  <section class="page" id="page-apropos" aria-label="À propos" hidden></section>
+  <section class="page" id="page-boutique" aria-label="Boutique" hidden></section>
+  <section class="page" id="page-panier" aria-label="Panier" hidden></section>
+  <section class="page" id="page-merci" aria-label="Merci" hidden></section>
+  <section class="page" id="page-introuvable" aria-label="Page introuvable" hidden></section>
+</main>
+
+<footer class="pied">
+  <span class="grand" data-nom-pied>Margot</span>
+  <span class="cadre-etoile" aria-hidden="true"><img class="deco deco--noire d-pied-geante" src="images/deco/etoile-noire-points.png" alt=""></span>
+  <span data-email></span>
+  <span>© <span data-annee></span></span>
+  <a href="#accueil" class="lien-fleche">Haut de page ↑</a>
+</footer>
+
+<dialog class="fiche" id="fiche" aria-label="Détail de la création"></dialog>
+<!--/CORPS-->
+<script src="assets/app.js"></script>
+</body>
+</html>
