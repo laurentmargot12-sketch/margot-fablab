@@ -79,6 +79,7 @@ content:
     format: json
     fields:
       - { name: nom, label: Nom affiché, type: string }
+      - { name: titre_accueil, label: "Grand titre de l'accueil (après ton nom)", type: string, description: "Ex. fabrique des images, des *objets* & des histoires. Un mot entre *étoiles* s'écrit en rouge italique. Vide = titre actuel." }
       - { name: signature, label: "Signature (ex. artiste & fabricante d'images)", type: string }
       - { name: ville, label: Lieu, type: string }
       - { name: email, label: E-mail de contact, type: string }
