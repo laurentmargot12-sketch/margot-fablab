@@ -61,7 +61,7 @@ function demarrer(S) {
     <div class="hero">
       ${deco("etoile-rouge-grande", "d-hero-etoile tourne")}
       <div>
-        <h1><span class="nom">${esc(S.nom)}</span> fabrique des images, des <em>objets</em> &amp; des histoires.</h1>
+        <h1><span class="nom">${esc(S.nom)}</span> ${esc(S.titre_accueil || "fabrique des images, des *objets* & des histoires.").replace(/\*([^*]+)\*/g, "<em>$1</em>")}</h1>
         <div class="chapo">
           <p>${esc(S.apropos.accroche)}</p>
           <span class="main-ecrite">voir le travail ↓</span>
