@@ -1,16 +1,14 @@
 {
   "creations": [
     {
-      "titre": "Scotch rouge n°1",
-      "rubrique": "Peinture",
+      "titre": "Vase",
+      "rubrique": "céramique",
       "annee": 2026,
-      "format": "50 × 70 cm",
-      "description": "",
-      "image": "",
+      "format": "20 × 10 cm",
+      "description": "Vase réalisé au tour à la main",
+      "image": "images/Firefly_Gemini Flash_met le même fond de la première sur la deuxième  55151.png",
       "teinte": "rouge",
-      "a_vendre": true,
-      "prix": 280,
-      "mention_prix": "",
+      "a_vendre": false,
       "statut": "disponible"
     },
     {
@@ -18,12 +16,9 @@
       "rubrique": "Dessin",
       "annee": 2026,
       "format": "A3",
-      "description": "",
-      "image": "",
       "teinte": "papier",
       "a_vendre": false,
       "prix": 0,
-      "mention_prix": "",
       "statut": "disponible"
     },
     {
@@ -31,8 +26,6 @@
       "rubrique": "Textile",
       "annee": 2025,
       "format": "Taille M",
-      "description": "",
-      "image": "",
       "teinte": "encre",
       "a_vendre": true,
       "prix": 150,
@@ -44,8 +37,6 @@
       "rubrique": "Céramique",
       "annee": 2025,
       "format": "Série de 5",
-      "description": "",
-      "image": "",
       "teinte": "papier",
       "a_vendre": true,
       "prix": 35,
@@ -57,12 +48,9 @@
       "rubrique": "Photo",
       "annee": 2026,
       "format": "Tirage 30 × 40",
-      "description": "",
-      "image": "",
       "teinte": "metal",
       "a_vendre": false,
       "prix": 0,
-      "mention_prix": "",
       "statut": "disponible"
     },
     {
@@ -70,12 +58,9 @@
       "rubrique": "Édition",
       "annee": 2026,
       "format": "24 pages, A5",
-      "description": "",
-      "image": "",
       "teinte": "rouge",
       "a_vendre": true,
       "prix": 12,
-      "mention_prix": "",
       "statut": "disponible"
     },
     {
@@ -83,12 +68,9 @@
       "rubrique": "Peinture",
       "annee": 2025,
       "format": "40 × 50 cm",
-      "description": "",
-      "image": "",
       "teinte": "encre",
       "a_vendre": true,
       "prix": 220,
-      "mention_prix": "",
       "statut": "vendu"
     },
     {
@@ -96,12 +78,9 @@
       "rubrique": "Dessin",
       "annee": 2025,
       "format": "A4",
-      "description": "",
-      "image": "",
       "teinte": "rouge",
       "a_vendre": false,
       "prix": 0,
-      "mention_prix": "",
       "statut": "disponible"
     },
     {
@@ -109,12 +88,9 @@
       "rubrique": "Textile",
       "annee": 2026,
       "format": "Toile de coton",
-      "description": "",
-      "image": "",
       "teinte": "papier",
       "a_vendre": false,
       "prix": 0,
-      "mention_prix": "",
       "statut": "disponible"
     },
     {
@@ -122,12 +98,9 @@
       "rubrique": "Édition",
       "annee": 2025,
       "format": "Sérigraphie 50 × 70",
-      "description": "",
-      "image": "",
       "teinte": "metal",
       "a_vendre": true,
       "prix": 45,
-      "mention_prix": "",
       "statut": "disponible"
     }
   ]
