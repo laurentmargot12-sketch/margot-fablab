@@ -12,16 +12,24 @@
     "photo": "images/Capture d'écran 2026-10-08 210951.png",
     "parcours": [
       {
+        "annee": "2025",
+        "texte": "Licence d’architecture École Nationale Supérieure d’Architecture de Paris Belleville"
+      },
+      {
         "annee": "2026",
-        "texte": "Childhood, série d'affiches"
+        "texte": "Chantier participatif enduit terre et isolation paille porteuse "
       },
       {
         "annee": "2025",
-        "texte": "Exposition collective, Scotch"
+        "texte": "Workshop d’Adobe Álvaro Lara, cours et ateliers sur la production de briques en adobe et en agave issus de la production de tequilla"
       },
       {
         "annee": "2024",
-        "texte": "Début des vêtements custom"
+        "texte": "Membre du Bureau des élèves BELLASSO, Responsable du pôle évènement"
+      },
+      {
+        "annee": "2024",
+        "texte": "A+ Architecture, stage pratique au sein d’une agence"
       }
     ]
   }
