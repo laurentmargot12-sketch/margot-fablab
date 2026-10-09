@@ -15,6 +15,7 @@
       "titre": "pendantif",
       "rubrique": "Bijoux",
       "annee": 2026,
+      "format": "/ ",
       "description": "Bijoux en laiton réalisé à la main ",
       "image": "images/01015441 V3.jpg",
       "a_vendre": false,
@@ -22,12 +23,13 @@
       "statut": "disponible"
     },
     {
-      "titre": "Veste œil",
-      "rubrique": "Textile",
-      "annee": 2025,
-      "format": "Taille M",
-      "teinte": "encre",
-      "a_vendre": true,
+      "titre": "Lot de bagues",
+      "rubrique": "Bijoux",
+      "annee": 2026,
+      "format": "Taille S",
+      "description": "Bagues en argent réalisé à la main ",
+      "image": "images/Firefly_Gemini Flash_met un fond neutre et améliore la lumière 793657.png",
+      "a_vendre": false,
       "prix": 150,
       "mention_prix": "À partir de",
       "statut": "sur commande"
