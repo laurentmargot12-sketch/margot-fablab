@@ -30,9 +30,7 @@
       "description": "Bagues en argent réalisé à la main ",
       "image": "images/Firefly_Gemini Flash_met un fond neutre et améliore la lumière 793657.png",
       "a_vendre": false,
-      "prix": 150,
-      "mention_prix": "À partir de",
-      "statut": "sur commande"
+      "prix": 0
     },
     {
       "titre": "Petits corps",
